@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: 23252C;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.footer{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 2vh;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  background-color: #161619;
+}
+.footer-social {
+  height: 3.5vh;
+  margin-left: 1.5vh;
+  margin-right: 1.5vh;
+}
+.main{
+  margin-top: 3vh;
+}
+.content {
+  background-color: #1A1B21;
+  top: 0;
+  padding: 3vh;
+}
+.main-heading{
+  color : #F5F5F5;
+  text-align: left;
+  font-size: 2vh;
+  font-weight: 700;
+  margin: .8vh;
+}
+.main-description {
+  text-align: left;
+  color : #CDCDCD;
+  font-size: 1.5vh;
+}
+.contact-name {
+    color : #FFFFFF;
+    font-weight: 650;
+    font-size: 3.6vh;
+}
+.contact-job {
+  color : #F3BF99;
+  font-size: 1.7vh;
+  margin: 1vh;
+}
+.contact-website {
+  color : #F5F5F5;
+  font-size: 1.5vh;
+  margin: 1vh;
+}
+.contact-buttons{
+  display: flex;
+  justify-content: space-around;
+  margin: 1vh;
+}
+.contact-buttons-email {
+  width: 47.5%;
+  height: 5vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  border-radius: 1vh;
+  padding: 1vh;
+  background-color: #FFFFFF;
+}
+.contact-buttons-email > img {
+  height: 3vh;
+  margin-right: 1vh;
+}
+.contact-buttons-linkedin{
+  width: 47.5%;
+  height: 5vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  border-radius: 1vh;
+  padding: 1vh;
+  background-color: #5093E2;
+}
+.contact-buttons-linkedin > img {
+  height: 3vh;
+  margin-right: 1vh;
+}
+
+.contact-buttons-description {
+  line-height: 3.5vh;
+  font-size: 1.9vh;
+}
+.contact-buttons-linkedin > div {
+  color: #FFFFFF;
+}
+.contact-buttons-email > div {
+  color: #374151;
+}
+.profile-img
+{
+  bottom: 0;
+  width: 400px;
+}
+.profile{
+  bottom: 0;
+}
+.App{
+  margin:auto;
+  width: 400px;
+  
+}
